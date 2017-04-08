@@ -1,0 +1,9 @@
+#+TITLE: Gentoo Kugui
+#+AUTHOR: 白鳥鵠
+
+* How to use
+#+BEGIN_SRC bash
+% git clone https://github.com/kelifrisk/gentoo-kugui /usr/local/portage
+% echo 'PORTDIR_OVERLAY="/usr/local/portage"' >> /etc/portage/make.conf
+% emerge --refresh
+#+END_SRC
